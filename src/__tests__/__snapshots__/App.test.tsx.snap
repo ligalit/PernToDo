@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component render app elem 1`] = `
+<div
+  className="section__app"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="section__todos"
+    >
+      <h1
+        data-testid="h1-todos"
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        ToDos
+      </h1>
+      <form
+        data-testid="testToDoForm"
+      >
+        <input
+          className="input"
+          onChange={[Function]}
+          placeholder="What needs to be done?"
+          value=""
+        />
+        <div
+          className="section_todos-btns"
+        >
+          <button
+            className="btn"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Add todos
+          </button>
+          <button
+            className="btn"
+            onClick={[Function]}
+            style={
+              Object {
+                "border": "1px solid rgba(175,0,0,0.5)",
+                "color": "rgba(175,0,0,0.5)",
+              }
+            }
+            type="button"
+          >
+            Clear Completed
+          </button>
+          <select
+            onChange={[Function]}
+          >
+            <option
+              disabled={true}
+              value=""
+            >
+              Choose from list
+            </option>
+            <option
+              value="all"
+            >
+              All
+            </option>
+            <option
+              value="active"
+            >
+              Active
+            </option>
+            <option
+              value="completed"
+            >
+              Completed
+            </option>
+          </select>
+        </div>
+      </form>
+      <div
+        data-testid="testToDoList"
+      >
+        <div
+          className="section__todos-todo"
+        >
+          <div
+            style={
+              Object {
+                "textDecoration": "",
+              }
+            }
+          >
+            Clean Room
+          </div>
+          <div>
+            <button
+              className="btn"
+              onClick={[Function]}
+            >
+              Complete To Do
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
